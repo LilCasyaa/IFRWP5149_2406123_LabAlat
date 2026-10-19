@@ -1,6 +1,6 @@
 # USECASE DESCRIPTION
 | Elemen | LAB-UC03 — Ajukan peminjaman |
-| :---: | :--- | 
+| :--- | :--- | 
 | Tujuan                | Menghasilkan pengajuan peminjaman yang tersimpan               |
 | Aktor utama           | Mahasiswa                                                      |
 | Sumber kebutuhan      | LAB-R03 dan LAB-R04                                            |

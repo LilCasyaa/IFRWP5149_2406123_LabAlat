@@ -37,13 +37,16 @@ Batas dan asumsi:
 | SIA-UC04 | Proses keputusan KRS	Fungsi utama dosen wali            |
 
 # Relasi Include
-SIA-UC03 «include» SIA-UC04 
-Extension point: Bukti pengajuan tersedia.
-Kondisi: [mahasiswa memilih mengunduh bukti].
-Alasan: validasi kelengkapan, prasyarat, dan benturan jadwal selalu menjadi bagian dari setiap pengajuan KRS.
+| SIA-UC03 «include» SIA-UC04 |
+| :--- |
+| Extension point: Bukti pengajuan tersedia |
+| Kondisi: [mahasiswa memilih mengunduh bukti] | 
+| Alasan: validasi kelengkapan, prasyarat, dan benturan jadwal selalu menjadi bagian dari setiap pengajuan KRS |
 
 # Relasi Extend
-SIA-UC05 «extend» SIA-UC03 
-Extension point: Bukti pengajuan tersedia 
-Kondisi: [mahasiswa memilih unduh] 
-Alasan: pengajuan tetap berhasil tanpa pengunduhan bukti.
+| SIA-UC05 «extend» SIA-UC03 |
+| :--- |
+| Extension point: Bukti pengajuan tersedia |
+| Kondisi: [mahasiswa memilih unduh] |
+| Alasan: pengajuan tetap berhasil tanpa pengunduhan bukti |
+

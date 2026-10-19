@@ -2,7 +2,7 @@ Mahasiswa mengajukan KRS dengan memilih mata kuliah Setiap pengajuan menjalankan
 
 # Tabel Daftar Kebutuhan Sistem
 | ID | Kebutuhan Tugas |
-| :---: | :---: |
+| :---: | :--- |
 |SIA-R01 | Mahasiswa dapat melihat jadwal kuliah                                    |
 |SIA-R02 | Admin akademik dapat mengelola jadwal kuliah                             | 
 |SIA-R03 | Mahasiswa dapat mengajukan KRS                                           |
@@ -20,19 +20,17 @@ Batas dan asumsi:
 • Pembayaran, pengisian nilai, dan implementasi basis data berada di luar tugas.
 
 # Tabel Identifikasi Aktor
-|------------+-----------------------------------------------------------------------------|
-|  Aktor     | Tujuan Terhadap Sistem                                                      |  
-|------------+-----------------------------------------------------------------------------|
+| Aktor | Tujuan Terhadap Sistem 
+| :---: | :---- |
 | Mahasiswa  | Mengajukan KRS dengan memilih mata kuliah;                                  |
 |            | Memilih apakah akan mengunduh bukti pengajuan KRS setelah berhasil disimpan |
 | Dosen Wali | Memeriksa pengajuan KRS mahasiswa;                                          |
 |            | Menyetujui atau menolak KRS dan memberikan catatan keputusan                |
-|------------+-----------------------------------------------------------------------------|
+
 
 # Tabel Daftar Use Case
-|----------+---------------------------------------------------------|
 |    ID    | Nama use case	Peran dalam model                        |
-|----------+---------------------------------------------------------|
+| :---: | :---- |
 | SIA-UC01 | Ajukan KRS	Fungsi utama mahasiswa                       | 
 | SIA-UC02 | Validasi KRS	Perilaku yang disertakan UC01            | 
 | SIA-UC03 | Unduh bukti pengajuan KRS	Tambahan bersyarat pada UC01 |

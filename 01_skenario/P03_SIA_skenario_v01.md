@@ -29,13 +29,12 @@ Batas dan asumsi:
 
 
 # Tabel Daftar Use Case
-|    ID    | Nama use case	Peran dalam model                        |
+| ID | Nama use case	Peran dalam model                        
 | :---: | :---- |
 | SIA-UC01 | Ajukan KRS	Fungsi utama mahasiswa                       | 
-| SIA-UC02 | Validasi KRS	Perilaku yang disertakan UC01            | 
+| SIA-UC02 | Validasi KRS	Perilaku yang disertakan UC01              | 
 | SIA-UC03 | Unduh bukti pengajuan KRS	Tambahan bersyarat pada UC01 |
-| SIA-UC04 | Proses keputusan KRS	Fungsi utama dosen wali          |
-|----------+---------------------------------------------------------|
+| SIA-UC04 | Proses keputusan KRS	Fungsi utama dosen wali            |
 
 # Relasi Include
 SIA-UC03 «include» SIA-UC04 

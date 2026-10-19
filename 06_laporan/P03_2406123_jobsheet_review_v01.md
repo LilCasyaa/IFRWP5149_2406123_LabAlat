@@ -1,11 +1,11 @@
-## Laporan
+
+
+# Laporan
+
 | No. | Temuan | Perbaikan yang diperlukan | Alasan |
 | :---: | :--- | :--- | :--- |
-|1  |Use case Memvalidasi KRS belum dihubungkan dengan Mengajukan KRS                         | Tambahkan relasi '<<include>>' dari Mengajukan KRS ke Memvalidasi KRS              | Validasi merupakan bagian wajib dari proses pengajuan KRS                                  |
-|2  |Use case Mengunduh Bukti Pengajuan KRS belum menggunakan relasi '<<extend>>'               | Tambahkan relasi '<<extend>>' dari Mengunduh Bukti Pengajuan KRS ke Mengajukan KRS | Mengunduh bukti merupakan pilihan mahasiswa dan bukan syarat keberhasilan pengajuan        |
-|3  |Aktor Admin Akademik belum dihubungkan dengan use case Mengelola Jadwal Kuliah           | Hubungkan Admin Akademik dengan use case Mengelola Jadwal Kuliah                 | Pengelolaan jadwal kuliah merupakan tanggung jawab Admin Akademik sesuai kebutuhan SIA-R02 |
-|4  |Use case Memproses Keputusan KRS belum dihubungkan dengan aktor Dosen Wali               | Hubungkan Dosen Wali dengan use case Memproses Keputusan KRS                     | Dosen Wali berwenang memproses persetujuan atau penolakan KRS                              |
-|5  |Diagram belum mencantumkan seluruh fungsi yang dibutuhkan dalam Sistem Informasi Akademik| Lengkapi diagram dengan enam use case sesuai kebutuhan SIA-R01 sampai SIA-R06    | Diagram perlu mencerminkan kebutuhan sistem yang dimodelkan                                |
-
-
-
+| 1 | Use case Memvalidasi KRS belum dihubungkan dengan Mengajukan KRS | Tambahkan relasi `<<include>>` dari Mengajukan KRS ke Memvalidasi KRS | Validasi merupakan bagian wajib dari proses pengajuan KRS |
+| 2 | Use case Mengunduh Bukti Pengajuan KRS belum menggunakan relasi `<<extend>>` | Tambahkan relasi `<<extend>>` dari Mengunduh Bukti Pengajuan KRS ke Mengajukan KRS | Mengunduh bukti merupakan pilihan mahasiswa dan bukan syarat keberhasilan pengajuan |
+| 3 | Aktor Admin Akademik belum dihubungkan dengan use case Mengelola Jadwal Kuliah | Hubungkan Admin Akademik dengan use case Mengelola Jadwal Kuliah | Pengelolaan jadwal kuliah merupakan tanggung jawab Admin Akademik sesuai kebutuhan SIA-R02 |
+| 4 | Use case Memproses Keputusan KRS belum dihubungkan dengan aktor Dosen Wali | Hubungkan Dosen Wali dengan use case Memproses Keputusan KRS | Dosen Wali berwenang memproses persetujuan atau penolakan KRS |
+| 5 | Diagram belum mencantumkan seluruh fungsi yang dibutuhkan dalam Sistem Informasi Akademik | Lengkapi diagram dengan enam use case sesuai kebutuhan SIA-R01 sampai SIA-R06 | Diagram perlu mencerminkan kebutuhan sistem yang dimodelkan |

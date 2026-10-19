@@ -2,7 +2,7 @@ Mahasiswa mengajukan KRS dengan memilih mata kuliah Setiap pengajuan menjalankan
 
 # Tabel Daftar Kebutuhan Sistem
 | ID | Kebutuhan Tugas |
-| :---- | :---: |
+| :---: | :---: |
 |SIA-R01 | Mahasiswa dapat melihat jadwal kuliah                                    |
 |SIA-R02 | Admin akademik dapat mengelola jadwal kuliah                             | 
 |SIA-R03 | Mahasiswa dapat mengajukan KRS                                           |

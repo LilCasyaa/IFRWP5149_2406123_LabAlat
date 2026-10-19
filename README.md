@@ -1,4 +1,4 @@
-# 📚 Catatan & Portofolio Praktikum Pemodelan UML
+# 📚 Praktikum Analisis & Desain Berorientasi Objek
 
 ---
 

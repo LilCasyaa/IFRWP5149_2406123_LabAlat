@@ -6,7 +6,7 @@
 | Informasi | Detail |
 | :--- | :--- |
 | **Nama** | Aina Anastasya |
-| **NIM** | 2406123[cite: 1] |
+| **NIM** | 2406123         |
 
 ---
 

@@ -4,7 +4,7 @@ Pertemuan         : 3
 Sumber kebutuhan  : modul
 Jenis/status      : Use case diagram / relasi
 Kakas             : draw.io
-Pembuat           : 406123 Aina Anastasya
+Pembuat           : 2406123 Aina Anastasya
 Versi dan tanggal : v01 / [14 Oktober 2026]
 Asumsi            : Hak akses sesuai; autentikasi di luar latihan
 Pemeriksaan       : [hasil review]

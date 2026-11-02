@@ -16,3 +16,4 @@
 - [x] **Pertemuan 2** — Unified Modelling Language (UML)
 - [x] **Pertemuan 3** — Use Case Diagram dan Use Case Description
 - [X] **Pertemuan 4** — Use Case Diagram Lanjutan: Generalization dan Collaboration
+- [X] **Pertemuan 5** — SKENARIO USE CASE: DARI DIAGRAM KE LANGKAH KEGIATAN

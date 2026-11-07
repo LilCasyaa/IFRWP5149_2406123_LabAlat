@@ -1,0 +1,83 @@
+<mxfile host="65bd71144e">
+    <diagram id="PYM_69Pj9K7g0ZhUgNWK" name="Activity Diagram Peminjaman">
+        <mxGraphModel dx="353" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="ZA24rsrbKo7ej6wTF3vA-18" parent="1" style="swimlane;" value="Peminjam " vertex="1">
+                    <mxGeometry height="840" width="370" x="280" y="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZA24rsrbKo7ej6wTF3vA-19" edge="1" parent="ZA24rsrbKo7ej6wTF3vA-18" source="ZA24rsrbKo7ej6wTF3vA-20" style="edgeStyle=none;html=1;" target="ZA24rsrbKo7ej6wTF3vA-22" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZA24rsrbKo7ej6wTF3vA-20" parent="ZA24rsrbKo7ej6wTF3vA-18" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="170" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZA24rsrbKo7ej6wTF3vA-22" parent="ZA24rsrbKo7ej6wTF3vA-18" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Membuka fungsi Lihat Ketersediaan Peralatan" vertex="1">
+                    <mxGeometry height="60" width="210" x="80" y="111" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZA24rsrbKo7ej6wTF3vA-23" parent="1" style="swimlane;" value="Sistem" vertex="1">
+                    <mxGeometry height="840" width="370" x="648" y="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZA24rsrbKo7ej6wTF3vA-24" parent="ZA24rsrbKo7ej6wTF3vA-23" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Peralatan tersedia?" vertex="1">
+                    <mxGeometry height="80" width="130" x="127" y="323" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZA24rsrbKo7ej6wTF3vA-25" edge="1" parent="ZA24rsrbKo7ej6wTF3vA-23" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.48;entryY=0.016;entryDx=0;entryDy=0;" target="ZA24rsrbKo7ej6wTF3vA-27" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="189" y="403.0000000000002" as="sourcePoint"/>
+                        <mxPoint x="189" y="473" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ZA24rsrbKo7ej6wTF3vA-26" connectable="0" parent="ZA24rsrbKo7ej6wTF3vA-25" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;" value="[tidak tersedia]" vertex="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZA24rsrbKo7ej6wTF3vA-27" parent="ZA24rsrbKo7ej6wTF3vA-23" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Menampilkan pesan tidak ada data peralatan yang tersedia" vertex="1">
+                    <mxGeometry height="60" width="200" x="92" y="490" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZA24rsrbKo7ej6wTF3vA-30" parent="ZA24rsrbKo7ej6wTF3vA-23" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="174" y="753" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZA24rsrbKo7ej6wTF3vA-41" edge="1" parent="ZA24rsrbKo7ej6wTF3vA-23" source="ZA24rsrbKo7ej6wTF3vA-31" style="edgeStyle=none;html=1;" target="ZA24rsrbKo7ej6wTF3vA-24" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZA24rsrbKo7ej6wTF3vA-31" parent="ZA24rsrbKo7ej6wTF3vA-23" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Menampilkan daftar peralatan beserta status ketersediaannya" vertex="1">
+                    <mxGeometry height="60" width="180" x="100" y="187" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZA24rsrbKo7ej6wTF3vA-34" edge="1" parent="1" source="ZA24rsrbKo7ej6wTF3vA-35" style="edgeStyle=none;html=1;" target="ZA24rsrbKo7ej6wTF3vA-30" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZA24rsrbKo7ej6wTF3vA-35" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="" vertex="1">
+                    <mxGeometry height="80" width="80" x="798" y="1047" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZA24rsrbKo7ej6wTF3vA-36" parent="1" style="text;whiteSpace=wrap;html=1;fontStyle=1" value="Activity Diagram Lihat Ketersediaan Peralatan" vertex="1">
+                    <mxGeometry height="40" width="265" x="530" y="420" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZA24rsrbKo7ej6wTF3vA-37" edge="1" parent="1" source="ZA24rsrbKo7ej6wTF3vA-22" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;curved=0;" target="ZA24rsrbKo7ej6wTF3vA-31" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="838" y="591"/>
+                        </Array>
+                        <mxPoint x="740" y="1000" as="sourcePoint"/>
+                        <mxPoint x="790" y="950" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ZA24rsrbKo7ej6wTF3vA-38" edge="1" parent="1" source="ZA24rsrbKo7ej6wTF3vA-27" style="edgeStyle=none;html=1;" target="ZA24rsrbKo7ej6wTF3vA-35" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ZA24rsrbKo7ej6wTF3vA-39" edge="1" parent="1" source="ZA24rsrbKo7ej6wTF3vA-24" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;rounded=0;curved=0;" target="ZA24rsrbKo7ej6wTF3vA-35" value="">
+                    <mxGeometry relative="1" x="-0.0191" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="990" y="813"/>
+                            <mxPoint x="990" y="1089"/>
+                        </Array>
+                        <mxPoint x="710" y="1069" as="sourcePoint"/>
+                        <mxPoint x="889" y="1089" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ZA24rsrbKo7ej6wTF3vA-40" connectable="0" parent="ZA24rsrbKo7ej6wTF3vA-39" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;" value="[tersedia]" vertex="1">
+                    <mxGeometry relative="1" x="-0.0191" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

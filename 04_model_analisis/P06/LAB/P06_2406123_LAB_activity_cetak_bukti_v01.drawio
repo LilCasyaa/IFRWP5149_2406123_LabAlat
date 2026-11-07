@@ -1,0 +1,108 @@
+<mxfile host="65bd71144e">
+    <diagram id="PryBCJYp2Dm7iULkhKRS" name="Page-1">
+        <mxGraphModel dx="1386" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-1" parent="1" style="swimlane;" value="Mahasiswa" vertex="1">
+                    <mxGeometry height="890" width="370" x="160" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-2" parent="V-yBZY5qLCls0NNzt3PT-1" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="170" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-20" parent="V-yBZY5qLCls0NNzt3PT-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Mengonfirmasi pencetakan" vertex="1">
+                    <mxGeometry height="60" width="160" x="105" y="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-3" parent="1" style="swimlane;" value="Sistem" vertex="1">
+                    <mxGeometry height="890" width="455" x="530" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-9" edge="1" parent="V-yBZY5qLCls0NNzt3PT-3" source="V-yBZY5qLCls0NNzt3PT-5" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;curved=0;" target="V-yBZY5qLCls0NNzt3PT-16" value="">
+                    <mxGeometry relative="1" x="-0.0478" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="370" y="150"/>
+                            <mxPoint x="370" y="300"/>
+                            <mxPoint x="370" y="380"/>
+                            <mxPoint x="185" y="380"/>
+                        </Array>
+                        <mxPoint x="370" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-5" parent="V-yBZY5qLCls0NNzt3PT-3" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Mahasiswa memilih cetak bukti?" vertex="1">
+                    <mxGeometry height="80" width="130" x="120" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-8" parent="V-yBZY5qLCls0NNzt3PT-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Menampilkan bukti pengajuan dengan nomor pengajuan dan status Menunggu Keputusan" vertex="1">
+                    <mxGeometry height="60" width="210" x="80" y="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-14" edge="1" parent="V-yBZY5qLCls0NNzt3PT-3" source="V-yBZY5qLCls0NNzt3PT-5" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="V-yBZY5qLCls0NNzt3PT-8" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="250" y="200" as="sourcePoint"/>
+                        <mxPoint x="310" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-15" connectable="0" parent="V-yBZY5qLCls0NNzt3PT-14" style="edgeLabel;resizable=0;html=1;inheritText=1;;align=center;verticalAlign=middle;" value="[ya, memilih cetak]" vertex="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-16" parent="V-yBZY5qLCls0NNzt3PT-3" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Menutup konfirmasi tanpa mencetak bukti dan pengajuan tetap tersimpan" vertex="1">
+                    <mxGeometry height="60" width="200" x="85" y="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-19" parent="V-yBZY5qLCls0NNzt3PT-3" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[tidak]" vertex="1">
+                    <mxGeometry height="30" width="60" x="316" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-22" parent="V-yBZY5qLCls0NNzt3PT-3" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Mencetak bukti pengajuan" vertex="1">
+                    <mxGeometry height="60" width="180" x="95" y="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-29" parent="V-yBZY5qLCls0NNzt3PT-3" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="170" y="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-7" edge="1" parent="1" source="V-yBZY5qLCls0NNzt3PT-2" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;curved=0;" target="V-yBZY5qLCls0NNzt3PT-5" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="715" y="165"/>
+                        </Array>
+                        <mxPoint x="710" y="165" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-21" edge="1" parent="1" source="V-yBZY5qLCls0NNzt3PT-8" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;curved=0;" target="V-yBZY5qLCls0NNzt3PT-20" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="345" y="430"/>
+                        </Array>
+                        <mxPoint x="460" y="540" as="sourcePoint"/>
+                        <mxPoint x="370" y="390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-23" edge="1" parent="1" source="V-yBZY5qLCls0NNzt3PT-20" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;curved=0;" target="V-yBZY5qLCls0NNzt3PT-22" value="">
+                    <mxGeometry height="50" relative="1" width="50" x="0.0158" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="345" y="660"/>
+                        </Array>
+                        <mxPoint x="620" y="610" as="sourcePoint"/>
+                        <mxPoint x="670" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-30" edge="1" parent="1" source="V-yBZY5qLCls0NNzt3PT-26" style="edgeStyle=none;html=1;" target="V-yBZY5qLCls0NNzt3PT-29" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-26" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="" vertex="1">
+                    <mxGeometry height="80" width="80" x="675" y="750" as="geometry"/>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-27" edge="1" parent="1" source="V-yBZY5qLCls0NNzt3PT-22" style="edgeStyle=none;html=1;" target="V-yBZY5qLCls0NNzt3PT-26" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-28" edge="1" parent="1" source="V-yBZY5qLCls0NNzt3PT-16" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;rounded=0;curved=0;" target="V-yBZY5qLCls0NNzt3PT-26" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="900" y="550"/>
+                            <mxPoint x="900" y="790"/>
+                        </Array>
+                        <mxPoint x="650" y="550" as="sourcePoint"/>
+                        <mxPoint x="700" y="500" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="V-yBZY5qLCls0NNzt3PT-32" parent="1" style="text;whiteSpace=wrap;html=1;fontStyle=1" value="Activity Diagram Cetak Bukti Pengajuan" vertex="1">
+                    <mxGeometry height="40" width="250" x="410" y="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

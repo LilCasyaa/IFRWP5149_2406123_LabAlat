@@ -18,3 +18,4 @@
 - [X] **Pertemuan 4** — Use Case Diagram Lanjutan: Generalization dan Collaboration
 - [X] **Pertemuan 5** — SKENARIO USE CASE: DARI DIAGRAM KE LANGKAH KEGIATAN
 - [X] **Pertemuan 6** — Activity Diagram: Dari Skenario Ke Alur Aktivitas
+- [X] **Pertemuan 7** — Assesment
